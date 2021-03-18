@@ -9,12 +9,9 @@ class Blog extends React.Component {
     const authorName = "FaceBook"
     return (
       <>
-        <Article
-          title={"Reactの入門"}
-          order={3}
-          isPublished={true}
-          author={authorName}
-        />
+        <Article title={"Reactの入門"} order={3}/>
+        <Article title={"jsxの使い方"} order={2}/>
+        <Article title={"環境構築してみよう"} order={3}/>
       </>
     )
   }
